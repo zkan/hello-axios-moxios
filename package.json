@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:zkan/hello-axios-moxios.git",
   "author": "zkan <kan@prontomarketing.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.17.1"
+  }
 }
