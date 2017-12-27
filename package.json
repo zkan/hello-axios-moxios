@@ -1,11 +1,18 @@
 {
   "name": "hello-axios-moxios",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "repository": "git@github.com:zkan/hello-axios-moxios.git",
   "author": "zkan <kan@prontomarketing.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "babel-node src/index.js"
+  },
   "dependencies": {
     "axios": "^0.17.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
   }
 }
