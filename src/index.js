@@ -2,16 +2,14 @@ import axios from 'axios'
 
 const printTitle = (text) => console.log(text)
 
-//const getPost = async (postId) => {
+//export const getPost = async (postId, fn) => {
   //const apiUrl = 'https://jsonplaceholder.typicode.com/posts/' + postId
   //const res = await axios.get(apiUrl)
-  //printTitle(res.data.title)
+  //fn(res.data.title)
 //}
 
-const getPost = (postId) => {
-  const apiUrl = 'https://jsonplaceholder.typicode.com/posts/' + postId
+export const getPost = (postId, fn) => {
+  const apiUrl = `https://jsonplaceholder.typicode.com/posts/${postId}`
   axios.get(apiUrl)
-    .then((res) => printTitle(res.data.title))
+    .then((res) => fn(res.data.title))
 }
-
-getPost(1)

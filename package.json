@@ -6,13 +6,17 @@
   "author": "zkan <kan@prontomarketing.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "babel-node src/index.js"
+    "dev": "babel-node src/index.js",
+    "test": "jest"
   },
   "dependencies": {
     "axios": "^0.17.1"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.1"
+    "babel-preset-env": "^1.6.1",
+    "moxios": "^0.4.0",
+    "jest": "^22.0.4",
+    "sinon": "^4.1.3"
   }
 }
