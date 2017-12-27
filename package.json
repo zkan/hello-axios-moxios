@@ -1,0 +1,8 @@
+{
+  "name": "hello-axios-moxios",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:zkan/hello-axios-moxios.git",
+  "author": "zkan <kan@prontomarketing.com>",
+  "license": "MIT"
+}
